@@ -18,7 +18,28 @@ namespace quotable.core
             }
         }
 
-        public IEnumerable<string> showQuotes(long numQuotes)
+        /// <summary>
+        ///     Only does something in "SimpleRandomQuoteProvider"
+        /// </summary>
+        /// <param name="quoteId"></param>
+        /// <returns></returns>
+        public string getQuoteByID(long quoteId)
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        ///     Only does something in "SimpleRandomQuoteProvider"
+        /// </summary>
+        /// <returns></returns>
+        public string getRandomQuote()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        ///     Only does something in "SimpleRandomQuoteProvider"
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<string> showQuotes()
         {
             throw new NotImplementedException();
         }

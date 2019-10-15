@@ -12,15 +12,15 @@ namespace quotable.console
     class Program
     {
 
-        //  For DefaultRandomQuoteGenerator, it seems stuff above the main method needs to say "static", same as Java
+       /* //  For DefaultRandomQuoteGenerator, it seems stuff above the main method needs to say "static", same as Java
         private static string[] theQuotes = new string[3] {"Fear of a name only increases fear of the thing itself. — Hermione Granger",
             "It is our choices, Harry, that show what we truly are, far more than our abilities. — Albus Dumbledore",
-        "I solemnly swear I am up to no good. - Harry Potter"};
+        "I solemnly swear I am up to no good. - Harry Potter"};*/
 
 
         static void Main(string[] args)
         {
-            SimpleRandomQuoteProvider threeQuotes = new SimpleRandomQuoteProvider();
+            /*SimpleRandomQuoteProvider threeQuotes = new SimpleRandomQuoteProvider();
             Console.WriteLine("Enter a number of quotes to show.");
             Console.WriteLine();
             //  Quickly googled how to cast string to long, it will crash if the input isn't a number though.
@@ -32,7 +32,7 @@ namespace quotable.console
             Console.WriteLine("     Now using DefaultRandomQuoteGenerator, printing all 3 quotes:");
             Console.WriteLine();
             DefaultRandomQuoteGenerator someName = new DefaultRandomQuoteGenerator(theQuotes);
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
     }
 }
